@@ -28,3 +28,7 @@ If you don't, get pip. Or do it the hard way:
 ```bash
 $ python setup.py install
 ```
+
+## Dependencies
+
+You need to have [curl](http://curl.haxx.se/) installed. To check if you do, run `which curl` and if nothing comes back, you don't have it and need to install it. For OS X, use [homebrew](http://brew.sh) and on Ubuntu, use `sudo apt-get install curl`.
